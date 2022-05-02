@@ -14,3 +14,6 @@ async def convert_pdf(input: DataConverterInput):
     service = DataConverterService(input)
     return service.convert()
 
+@app.get(
+    e
+)
