@@ -1,1 +1,1 @@
-web: gunicorn -w 3 -k uvicorn.workers.UvicornWorker data_converter_controller:app
+web: gunicorn -w 3 -k uvicorn.workers.UvicornWorker server:app
